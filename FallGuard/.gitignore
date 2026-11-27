@@ -1,0 +1,24 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+secrets.h
+**/secrets.h
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+
+# Local/editor/OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Arduino build artifacts
+*.elf
+*.hex
+*.bin
